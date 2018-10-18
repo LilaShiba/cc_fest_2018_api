@@ -40,3 +40,9 @@ def read_out_api_data(data):
     print('The wind is blowing at ' + str(wind))
     print('UV index is at ' + str(uv))
     print('The moon is at ' + str(moon))
+
+# run program
+lat = int(input('what lat'))
+lon = int(input('what lon'))
+data = set_up_api_call(lat, long)
+read_out_api_data(data)
