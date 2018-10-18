@@ -3,6 +3,7 @@
 An application-programming interface (API) is a set of programming instructions and standards for accessing a Web-based software application or Web tool. A software company releases its API to the public so that other software developers can design products that are powered by its service.
 
 For example, Amazon.com released its API so that Web site developers could more easily access Amazon's product information. Using the Amazon API, a third party Web site can post direct links to Amazon products with updated prices and an option to "buy now."
+[source](https://money.howstuffworks.com/business-communications/how-to-leverage-an-api-for-conferencing1.htm)
 
 # Science APIs 
 ### NASA
