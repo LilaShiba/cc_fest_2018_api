@@ -2,10 +2,10 @@
 # Dark Sky Doc: https://darksky.net/dev
 # Make an api call
 import json, requests
-def set_up_api_call(lat, long):
+def set_up_api_call(lat, lon):
     #url vars
     api_token = 'YOUR_API_TOKEN_HERE'
-    url = 'https://api.darksky.net/forecast/'+api_token+'/'+lat+','+long'
+    url = 'https://api.darksky.net/forecast/'+api_token+'/'+lat+','+lon'
 
     # call data
     data = requests.get(url).json()
@@ -44,5 +44,5 @@ def read_out_api_data(data):
 # run program
 lat = int(input('what lat'))
 lon = int(input('what lon'))
-data = set_up_api_call(lat, long)
+data = set_up_api_call(lat, lon)
 read_out_api_data(data)
