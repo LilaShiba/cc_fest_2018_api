@@ -25,6 +25,7 @@ def api_call(url):
     print('low', low)
     return symbol, high, low
 # main process
-url = api_url('BA')
+
+
 api_call(url)
 # while loop call set on 1 min interval
