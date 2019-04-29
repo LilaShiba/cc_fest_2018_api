@@ -3,7 +3,7 @@
 import json, requests
 
 ############################### API Request Parameters #########################################################################
-api_token = '31df5488194dc5669a4d8c1b5800ef60'
+api_token = 'your key here'
 lat = '40.7128'
 lon = '-74.0060'
 url = 'https://api.darksky.net/forecast/'+api_token+'/'+lat+','+lon
